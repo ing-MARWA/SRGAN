@@ -34,8 +34,6 @@ The discriminator is also a CNN that classifies images as either "real" or "gene
   
 ## VGG19
 A pre-trained VGG19 model is used to extract feature representations from both the real and generated images. This helps the generator focus not just on pixel-level accuracy but also on producing perceptually realistic images. The VGG19 model is loaded up to the 17th layer for feature extraction.
-## Dependencies
-Make sure you have the following libraries installed:
 
 ## Dependencies
 
@@ -61,7 +59,7 @@ The Anime Face Dataset is used for training. Images are resized to 256x256 (HR) 
 
 You can download the dataset from Kaggle:
 
-- [Anime Face Dataset]([link-to-dataset](https://www.kaggle.com/datasets/scribbless/another-anime-face-dataset)) 
+- [Anime Face Dataset](https://www.kaggle.com/datasets/scribbless/another-anime-face-dataset)
 
 ## Training
 
