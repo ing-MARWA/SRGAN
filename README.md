@@ -32,7 +32,7 @@ The discriminator is also a CNN that classifies images as either "real" or "gene
 - **Batch normalization layers to stabilize training**
 - **A residual block to further improve performance**
   
-# VGG19
+## VGG19
 A pre-trained VGG19 model is used to extract feature representations from both the real and generated images. This helps the generator focus not just on pixel-level accuracy but also on producing perceptually realistic images. The VGG19 model is loaded up to the 17th layer for feature extraction.
 ## Dependencies
 Make sure you have the following libraries installed:
@@ -103,5 +103,5 @@ cd srgan-anime-faces
 
 ## References
 
-- **SRGAN Paper:** Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network
-- **Anime Face Dataset:** Anime Face Dataset on Kaggle 
+- **SRGAN Paper:** [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802)
+- **Anime Face Dataset:**[ Anime Face Dataset on Kaggle](https://www.kaggle.com/datasets/scribbless/another-anime-face-dataset)
